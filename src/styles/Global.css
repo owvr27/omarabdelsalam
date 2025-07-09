@@ -1,13 +1,13 @@
 :root {
-  --dark-navy: #020c1b;
-  --navy: #0a192f;
-  --light-navy: #112240;
-  --lightest-navy: #233554;
-  --navy-shadow: rgba(2, 12, 27, 0.7);
-  --slate: #8892b0;
-  --light-slate: #a8b2d1;
-  --lightest-slate: #ccd6f6;
-  --white: #e6f1ff;
-  --green-bright: #64ffda;
-  --green-tint: rgba(100, 255, 218, 0.1);
+  --dark-navy: #0d0d0d;           /* Very dark gray */
+  --navy: #1a0d0d;                /* Dark red-brown */
+  --light-navy: #2d1a1a;          /* Red-brown */
+  --lightest-navy: #402626;       /* Light red-brown */
+  --navy-shadow: rgba(13, 13, 13, 0.7);  /* Dark shadow */
+  --slate: #a67c7c;               /* Muted red-brown */
+  --light-slate: #c19999;         /* Light red-brown */
+  --lightest-slate: #e6d6d6;      /* Very light red-brown */
+  --white: #f9f5f5;               /* Off-white with red tint */
+  --green-bright: #e74c3c;        /* Elegant red */
+  --green-tint: rgba(231, 76, 60, 0.1);  /* Elegant red tint */
 }

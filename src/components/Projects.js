@@ -22,85 +22,77 @@ class Projects extends React.Component {
   }
   render() {
     const spotlightProjects = {
-      "No Man's Land": {
-        title: "no man's land",
+      "3d Robot Design Page": {
+        title: "3d Robot Design Page",
         desc:
           "A third-person survival-mode game where you battle against time and space to return to Earth.",
-        techStack: "C# (UNITY)",
-        link: "https://github.com/slakh96/no-mans-land",
-        open: "https://gazijarin.itch.io/no-mans-land",
-        image: "/assets/nomansland.png"
+        techStack: "Spline",
+        link: "https://app.spline.design/file/07c4782c-6096-4d22-92b7-9b03e326bf22",
+        open: "https://app.spline.design/file/07c4782c-6096-4d22-92b7-9b03e326bf22",
+        image: "assets/Robot design_imresizer.jpg"
       },
-      Truth: {
-        title: "truth",
+     
+      "Corporate Network Design": {
+        title: "Corporate Network Design",
         desc:
-          "A three.js simulation of the planet system revolving around a monolith.",
-        techStack: "JAVASCRIPT (THREE.JS)",
-        link: "https://github.com/gazijarin/truth",
-        open: "https://gazijarin.github.io/Truth/",
-        image: "/assets/truth.png"
-      },
-      "Tall Tales": {
-        title: "tall tales",
-        desc:
-          "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
-        techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
-        link: "https://github.com/gazijarin/TallTales",
-        open: "https://talltales.herokuapp.com/",
-        image: "/assets/talltales.png"
+          "This project presents a scalable corporate network designed using Cisco Packet Tracer. The network simulates departments including HR, IT, and Finance, with efficient subnetting, routing, QoS, and security features.", 
+           techStack: "Packet Tracer",
+        link: "https://github.com/owvr27/topology/",
+
+        image: "assets/topology.png"
       },
       Portfolio: {
-        title: "portfolio.js",
+        title: "portfolio",
         desc:
-          "A small JS library that helps with clear and succinct data presentation.",
-        techStack: "NODE.JS (EXPRESS.JS)",
-        link: "https://github.com/gazijarin/Portfolio.js",
-        open: "https://afternoon-ocean-92382.herokuapp.com/",
-        image: "/assets/portfolio.png"
+          "Built a personal portfolio website from scratch using HTML, CSS, and JavaScript to showcase my skills, projects, and experience. Focused on clean design, responsive layout, and smooth navigation for an engaging user experience.",
+        techStack: "Html Css JS",
+        link: "https://github.com/owvr27/owvr",
+        open: "https://owvr27.github.io/owvr/",
+        image: "/assets/1Portfolio.png"
       }
     };
     const projects = {
-      "TDSB Homework Management Interface": {
+      "Airline Ticket System": {
         desc:
-          "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-        techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-        link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-        open: "https://tdsb-app.herokuapp.com/"
+          "Airline Ticket System with Java A Java-based desktop application with GUI and database integration for managing airline ticket bookings. It supports user and admin roles, flight search, ticket reservation, and management.",
+        techStack: "Java,JSwing,MySql ",
+        link: "https://github.com/owvr27/AirlineTicketSys",
+       
       },
-      "Adam A.I.": {
+      "To Do List Manger": {
         desc:
           "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
-        techStack: "Javascript, HTML / CSS",
-        link: "https://github.com/gazijarin/adamai",
-        open: "https://gazijarin.github.io/AdamAI/"
+        techStack: "Python , Json",
+        link: "https://github.com/owvr27/ToDoListMngerPY",
+      
       },
-      "Distributed Logging and Monitoring System": {
+      "Fitness App Database": {
         desc:
-          "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
-        techStack: "Node.js (Express.js), React.js, PostgreSQL",
+          "A MySQL-based backend for managing a fitness application that tracks users, workouts, goals, and progress.A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
+        techStack: "MySql,Java",
         link:
-          "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System"
+          "https://github.com/owvr27/Fittness-app-database"
       },
-      "Odin Bot": {
+      "Corporate Network Design": {
         desc:
-          "A Telegram bot that helps you excel on your daily tasks through Node NLP.",
-        techStack: "Javascript, Node.js, Natural NLP, Telegram API",
-        link: "https://github.com/gazijarin/OdinBot",
-        open: ""
+          "Corporate Network Infrastructure Design BusinessThis project presents a scalable corporate network designed using Cisco Packet Tracer. The network simulates departments including HR, IT, and Finance, with efficient subnetting, routing, QoS, and security features.",
+        techStack: "Packet tTracer",
+        link: "https://github.com/owvr27/topology",
+       
       },
-      "Game Centre": {
+      "Pepsi Website": {
         desc:
-          "An Android app consisting of three board games, including multiplayer, autosave, user authentication, etc.",
-        techStack: "Java, Android Studio",
-        link: "https://github.com/gazijarin/gamecentre",
-        open: ""
+          "Designed and developed a responsive Pepsi-branded website using HTML, CSS,Focused on modern UI/UX design, smooth animations, and mobile-friendly layout to deliver a visually appealing user experience",
+        techStack: "Html ,Css",
+        link: "https://github.com/owvr27/pepsi-site",
+        
       },
-      "Minimax Stonehenge": {
+      " Ideal Weight Calculator ": {
         desc:
-          "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
-        techStack: "Python",
-        link: "https://github.com/gazijarin/stonehenge",
-        open: ""
+          "This is a simple and user-friendly Python application that calculates a person's ideal (perfect) body weight based on the Devine formula, using Tkinter for the graphical interface.",
+        techStack: "Python , Tkinter",
+        link: "https://github.com/owvr27/ideal-weight-calculator-python",
+        
       }
     };
 
