@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/omarabdelsalam/static/css/main.238c2b45.css",
+    "main.js": "/omarabdelsalam/static/js/main.a5f569ce.js",
+    "index.html": "/omarabdelsalam/index.html",
+    "main.238c2b45.css.map": "/omarabdelsalam/static/css/main.238c2b45.css.map",
+    "main.a5f569ce.js.map": "/omarabdelsalam/static/js/main.a5f569ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.238c2b45.css",
+    "static/js/main.a5f569ce.js"
+  ]
+}
