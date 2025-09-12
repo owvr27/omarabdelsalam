@@ -34,9 +34,10 @@ class Intro extends React.Component {
           </span>
         </Typist>
         <FadeInSection>
-          <div className="intro-subtitle">I create stuff sometimes.</div>
+          <div className="intro-subtitle">I see what others miss..</div>
           <div className="intro-desc">
-            I'm a cybersecurity student and aspiring security engineer from Cairo, Egypt. I'm passionate about defending systems, analyzing threats, and building secure solutions. I’ve worked on real-world projects in network analysis, bug hunting, and SOC tools, and I continue to develop my skills through hands-on labs, internships, and freelance experience. 
+           I'm a Computer Engineering student from Egypt. I'm passionate about security and fascinated by high-impact technology that scales. I’ve interned at multinational companies, gaining exposure to AI, data, and cybersecurity. I’m constantly driven by curiosity and the challenge of building secure, meaningful systems.
+
 
           </div>
           <a
