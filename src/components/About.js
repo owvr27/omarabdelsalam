@@ -18,14 +18,13 @@ class About extends React.Component {
   }
   render() {
     const one = (
-     <p>
-  I’m currently a <b>Software Development Engineer Intern</b> at
-  <a href="https://talaatmoustafa.com/" target="_blank">Talaat Moustafa Group</a>, 
-  working in the cybersecurity sector. I'm part of the security team, contributing to network monitoring and system defense. 
-  Alongside this, I’m pursuing a part-time <b>Bachelor’s degree in Computer Engineering</b> with a focus on 
-  <b>Software Engineering</b> at 
-  <a href="https://sut.edu.eg/" target="_blank">Polytechnic of Egypt University</a>.
+    <p>
+  I previously interned at <b>Vodafone Egypt</b>, where I collaborated with the AI & Data team on developing and tuning classification models using Decision Tree and Random Forest algorithms. I also explored penetration testing basics during the final phase of the internship. 
+  Additionally, I completed a Frontend & Security internship at <b>Al Dahra Agriculture</b>, contributing to a web dashboard project focused on agricultural data analysis and security implementation.
+  Currently, I’m pursuing a <b>Bachelor’s degree in Computer Engineering</b> at 
+  <a href="https://sut.edu.eg/" target="_blank">Polytechnic of Egypt University</a>, with a strong interest in cybersecurity and software engineering.
 </p>
+
 
     );
     const two = (
@@ -40,8 +39,7 @@ class About extends React.Component {
       "Python",
       "HTML CSS",
       "Java",
-      "Javascript ",
-      "C++"
+      "Javascript "
     ];
 
     return (
