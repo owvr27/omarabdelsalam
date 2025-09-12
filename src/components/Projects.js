@@ -29,7 +29,7 @@ class Projects extends React.Component {
         techStack: "Spline",
         link: "https://app.spline.design/file/07c4782c-6096-4d22-92b7-9b03e326bf22",
         open: "https://app.spline.design/file/07c4782c-6096-4d22-92b7-9b03e326bf22",
-        image: "assets/Robot design_imresizer.jpg"
+        image: process.env.PUBLIC_URL + "/assets/Robot design_imresizer.jpg"
       },
      
       "Corporate Network Design": {
@@ -39,7 +39,7 @@ class Projects extends React.Component {
            techStack: "Packet Tracer",
         link: "https://github.com/owvr27/topology/",
 
-        image: "assets/topology.png"
+        image: process.env.PUBLIC_URL + "/assets/topology.png"
       },
       Portfolio: {
         title: "portfolio",
@@ -48,7 +48,7 @@ class Projects extends React.Component {
         techStack: "Html Css JS",
         link: "https://github.com/owvr27/owvr",
         open: "https://owvr27.github.io/owvr/",
-        image: "/assets/1Portfolio.png"
+        image: process.env.PUBLIC_URL + "/assets/1Portfolio.png"
       }
     };
     const projects = {
