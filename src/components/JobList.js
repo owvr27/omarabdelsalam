@@ -82,14 +82,23 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    "Talaat Mustafa Group": {
-      jobTitle: "Cybersecurity Engineer itern @",
-      duration: "Aug 2025 - PRESENT",
-      desc:[
-  "Assisted in monitoring and analyzing security events as part of the SOC team at Talaat Moustafa Group, contributing to early threat detection and incident response workflows.",
-  "Supported internal vulnerability assessments and helped improve system security posture across various departments."
-]
-    },
+ "Vodafone Egypt": {
+  jobTitle: "AI & Cybersecurity Intern @",
+  duration: "Jul 2025 - Aug 2025",
+  desc: [
+    "Collaborated with the AI & Data team to develop and optimize classification models using Decision Tree and Random Forest algorithms, improving model accuracy and performance.",
+    "Explored cybersecurity basics with a focus on penetration testing, gaining hands-on exposure to common vulnerabilities and basic security tools."
+  ]
+},
+
+"Al Dahra Agriculture": {
+  jobTitle: "Frontend & Security Intern @",
+  duration: "Aug 2025 - Sep 2025",
+  desc: [
+    "Worked on building a web-based dashboard for agricultural data analysis, contributing to UI/UX design and React component development.",
+    "Supported basic security integration and infrastructure understanding while collaborating with the IT team to ensure safe and scalable deployment."
+  ]
+},
     
     "Polytechnic of Egypt University": {
       jobTitle: "Student @",
