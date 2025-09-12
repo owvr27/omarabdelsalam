@@ -6,6 +6,7 @@ import BorderColorIcon from "@material-ui/icons/BorderColor";
 import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import DescriptionIcon from "@material-ui/icons/Description";
 import "../styles/NavBar.css";
 
 class NavBar extends React.Component {
@@ -29,8 +30,11 @@ class NavBar extends React.Component {
               <Nav.Link href="https://github.com/owvr27" target="_blank">
                 <GitHubIcon style={{ fontSize: 19 }}></GitHubIcon>
               </Nav.Link>
-              <Nav.Link href="https://www.linkedin.com/in/omar-elsayed-29276a341" target="_blank">
+              <Nav.Link href="https://www.linkedin.com/in/omar-abdelsalam-29276a341/" target="_blank">
                 <LinkedInIcon style={{ fontSize: 21 }}></LinkedInIcon>
+              </Nav.Link>
+              <Nav.Link href={process.env.PUBLIC_URL + "/assets/Omar_Abdelsalam.pdf"} download="Omar_Abdelsalam_CV.pdf">
+                <DescriptionIcon style={{ fontSize: 21 }}></DescriptionIcon>
               </Nav.Link>
               
             </Nav>
