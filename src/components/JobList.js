@@ -82,7 +82,7 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
- "Vodafone Egypt": {
+ "Vodafone": {
   jobTitle: "AI & Cybersecurity Intern @",
   duration: "Jul 2025 - Aug 2025",
   desc: [
